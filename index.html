@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Virtual Manga Shop."> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mugen Shop - The Hugest Manga Shop on The Web!</title>
+    <meta name="keywords" content="Manga, Shop, Japan, Virtual Shop">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Mateus Santiago">
+    <link rel="stylesheet" href="cssx/style.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="icon" href="imgx/icon.png">
+</head>
+<body>
+    <header class="container">
+       <a href="index.html"><h1 class="logo">Mugen Shop - The Hugest Manga Shop on The Web!</h1></a>
+       <button class="btn-menu"><i class="bi bi-list"></i></button>
+        <nav class="menu">
+            <a href="" class="btn-close"><i class="bi bi-x-lg"></i></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Mangas</a></li>
+                <li><a href="#">Customer Service</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Buttons -->
+    <div class="container banner">
+        <div class="title">
+            <h2>MANGAS ON SALE!!</h2>
+            <h3>Buy it now and receive a Wallpaper of your favourite manga!</h3>
+        </div>
+        <div class="buttons">
+            <button class="btn btn-cadastrar">Sell with us <i class="bi bi-arrow-right-circle-fill"></i></button>
+            <button class="btn btn-sobre">About <i class="bi bi-question-circle-fill"></i></button>
+        </div>
+    </div>
+    <!-- Home/Index Services -->
+    <main class="container servicos">
+        <article class="servico">
+            <a href="#"><img src="imgx/onsale.png" alt="On Sale"></a>
+            <div class="inner">
+                <a href="#">Mangas On Sale</a>
+                <h4>All Mangas' different genres!</h4>
+                <p>Here you will find greats of the genre like Death Note, Naruto and One Piece as well as modern day favourites such as Kimetsu no Yaiba, Assassination Classroom and My Hero Academia.</p>
+            </div>
+        </article>
+        <article class="servico">
+            <a href="#"><img src="imgx/wallpaper.jpg" alt="Wallpapers"></a>
+            <div class="inner">
+                <a href="#">Buy Wallpapers</a>
+                <h4>Choose the style, size and color!</h4>
+                <p>Looking for an online shop where you can save up to 80% of your money while buying anime wallpapers? We provide the best products which are sourced from well-established and known manufacturers.</p>
+            </div>
+        </article>
+        <article class="servico">
+            <a href="#"><img src="imgx/manhwa.jpg" alt="Manhwas"></a>
+            <div class="inner">
+                <a href="#">Manhwa</a>
+                <h4>We have the best of South Korean Comics!</h4>
+                <p>Manhwa is the general Korean term for comics and print cartoons. Outside Korea, the term usually refers to South Korean comics, Manhwa is a notable part of South Korean culture. Here you will find the most famous ones and the most unpopular too!</p>
+            </div>
+        </article>       
+    </main>
+    <!-- Newsletter -->
+    <section class="container newsletter">
+        <h2>Sign up for our Newsletter!</h2>
+        <h3>Get exclusive offers, coupons, promotions and more!</h3>
+        <form action="">
+            <input type="email" name="email" placeholder="Your email">
+            <button class="newsletter-signup">Sign up</button>
+
+        </form>
+    </section>
+    <!-- Footer -->
+    <footer class="container rodape">
+        <div class="social-icons">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-google"></i></a>
+            <a href="#"><i class="bi bi-envelope-fill"></i></a>
+        </div>
+        <p class="copyright">
+            © 2021 Mugen Shop. All rights reserved.
+        </p>
+    </footer>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+    <!-- Close Button Script -->    
+    <script>
+        $(".btn-menu").click (function() {
+            $(".menu").show();
+        });
+        </script>
+</body>
+</html>
