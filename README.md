@@ -1,6 +1,6 @@
 # Mugen Shop, a Manga Website
 
-A **responsive** website I've created about Manga sales.
+A **responsive** website I've created about Manga sales: **https://mateus-santiago.github.io/mugen.shop.website/**
 
 I used **Bootstrap** and no *JS*.
 
